@@ -1,0 +1,43 @@
+.navigasi {
+	margin-top: 51px;
+}
+
+.title-post p {
+	margin-top: 80px;
+	font-family: baskerville;
+	font-size: 30px;
+}
+
+.desc-post p {
+	text-align: center;
+	font-family: baskerville;
+	font-size: 15px;
+}
+
+
+.dropdown-menu {
+	background-color: #333333 !important;
+
+}
+
+.dropdown-menu a{
+	color: #999999 !important;
+
+}
+
+.dropdown-toggle:hover {
+	background-color: #333333 !important;;	
+}
+
+.banner {
+margin-top: 51px;
+padding: 0px !important;
+}
+
+
+.itwrap {
+	float: left !important;
+}
+
+
+
