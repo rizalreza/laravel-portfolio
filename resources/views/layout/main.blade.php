@@ -5,7 +5,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>
-            @yield('title','Our Site')
+            @yield('title','rizalreza')
         </title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
         <link rel="stylesheet" href="{{asset('dist/css/foundation.css')}}"/>
@@ -23,7 +23,7 @@
     </head>
     <body>
 
-<nav class="navbar navbar-inverse navbar-fixed-top ">
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container ">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header ">
@@ -33,17 +33,18 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Portfolio</a>
+      <a class="navbar-brand" href="#"><strong>Portfolio</strong> Webs</a>
+      
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
         <li><a href="{{route('home')}}">Home <span class="sr-only">(current)</span></a></li>
         <li><a href="{{route('posts')}}">Portfolio</a></li>
         <li><a href="#">About</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Action <span class="caret"></span></a>
           <ul class="dropdown-menu">

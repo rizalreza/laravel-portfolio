@@ -1,6 +1,6 @@
 @extends('layout.main')
 
-@section('title','Posts')
+@section('title','rizalreza')
 
 @section('content')
 
@@ -12,13 +12,19 @@
                     <p>{{$item->title}}</p>
             </div>
 
+            
+
             <div class="col-md-10 col-md-offset-1 columns-post">
-                <div class="item-wrapper">
-                    <div class="img-wrapper">
+                
+                <div class="item-wrapper itwrap-post">
+                    <div class="img-wrapper imgwrap-post">
                         <a href="#">
                              <img src="{{asset("images/$item->image")}}"/>
                         </a>
                     </div>
+                </div>
+                <div class="date-post">
+                    <p>Posted at : {{$item->created_at->format('d-m-Y')}}</p>
                 </div>
             </div> 
 

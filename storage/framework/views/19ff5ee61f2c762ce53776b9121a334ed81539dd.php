@@ -57,35 +57,27 @@
            Latest Post
         </h2>
         </div>
+        <br/>
        
         <!-- Latest SHirts -->
         <div class="container">
-        <div class="row full-width">
+        
          <?php $__empty_1 = true; $__currentLoopData = $items; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); $__empty_1 = false; ?>
-            <div class="col-md-3 col-sm-6 col-xs-12 columns itwrap">
-                <div class="item-wrapper ">
-                    <h3>
-                     <center><?php echo e($item->title); ?></center>
-                    </h3>
-                    <br/>
-                    <div class="img-wrapper">
-                        <a href="<?php echo e(URL('post', $item->id)); ?>" class="button expanded add-to-cart">
-                            View Detail
-                        </a>
-                        <a href="#">
-                            <img src="<?php echo e(asset("images/$item->image")); ?>"/>
-                        </a>
-                    </div>
-                    
-                       
-                    </a>
-                  
-                </div>
+            <div class="full-width col-md-3 col-sm-6 col-xs-12">
+              <div class="container-box">
+                <img src="<?php echo e(asset("images/$item->image")); ?>" alt="Avatar" class="image-box" style="width:100%">
+                  <a href="<?php echo e(URL('/post/' . $item->id)); ?>">  
+                       <div class="middle-box">
+                           <div class="text-box"><?php echo e($item->title); ?></div>
+                        </div>
+                  </a>   
+              </div>
             </div>
+
             <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); if ($__empty_1): ?>
             <h3> No Posts</h3>
             <?php endif; ?>
-        </div>   
+          
         </div>
       
 
