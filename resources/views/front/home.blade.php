@@ -59,35 +59,27 @@
            Latest Post
         </h2>
         </div>
+        <br/>
        
         <!-- Latest SHirts -->
         <div class="container">
-        <div class="row full-width">
+        {{-- <div class=""> --}}
          @forelse($items as $item)
-            <div class="col-md-3 col-sm-6 col-xs-12 columns itwrap">
-                <div class="item-wrapper ">
-                    <h3>
-                     <center>{{$item->title}}</center>
-                    </h3>
-                    <br/>
-                    <div class="img-wrapper">
-                        <a href="{{ URL('post', $item->id) }}" class="button expanded add-to-cart">
-                            View Detail
-                        </a>
-                        <a href="#">
-                            <img src="{{asset("images/$item->image")}}"/>
-                        </a>
-                    </div>
-                    
-                       
-                    </a>
-                  
-                </div>
+            <div class="full-width col-md-3 col-sm-6 col-xs-12">
+              <div class="container-box">
+                <img src="{{asset("images/$item->image")}}" alt="Avatar" class="image-box" style="width:100%">
+                  <a href="{{ URL('/post/' . $item->id) }}">  
+                       <div class="middle-box">
+                           <div class="text-box">{{$item->title}}</div>
+                        </div>
+                  </a>   
+              </div>
             </div>
+
             @empty
             <h3> No Posts</h3>
             @endforelse
-        </div>   
+       {{--  </div> --}}   
         </div>
       
 

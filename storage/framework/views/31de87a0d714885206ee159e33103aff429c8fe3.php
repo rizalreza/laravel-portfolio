@@ -1,4 +1,4 @@
-<?php $__env->startSection('title','Posts'); ?>
+<?php $__env->startSection('title','rizalreza'); ?>
 
 <?php $__env->startSection('content'); ?>
 
@@ -10,13 +10,19 @@
                     <p><?php echo e($item->title); ?></p>
             </div>
 
+            
+
             <div class="col-md-10 col-md-offset-1 columns-post">
-                <div class="item-wrapper">
-                    <div class="img-wrapper">
+                
+                <div class="item-wrapper itwrap-post">
+                    <div class="img-wrapper imgwrap-post">
                         <a href="#">
                              <img src="<?php echo e(asset("images/$item->image")); ?>"/>
                         </a>
                     </div>
+                </div>
+                <div class="date-post">
+                    <p>Posted at : <?php echo e($item->created_at->format('d-m-Y')); ?></p>
                 </div>
             </div> 
 
@@ -25,8 +31,7 @@
                    <p><?php echo e($item->description); ?></p>
                 </div>
             </div>
-            
-              
+          
 
                 </div>
             </div>
