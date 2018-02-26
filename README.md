@@ -24,18 +24,18 @@ Migrate
 
 * Add Post
 
-![Addpost](https://imgur.com/a/p3ti8)
+![Addpost](https://i.imgur.com/Ue6n6KL.png))
 
 * Update and Delete Post
 
-![UpdateandDeletePost](https://imgur.com/a/p3ti8)
+![UpdateandDeletePost](https://i.imgur.com/FwOyLnz.png)
 
 * Home Page
 
-![HomePage](https://imgur.com/a/p3ti8)
+![HomePage](https://i.imgur.com/FwOyLnz.png)
 
 * Detail Post
 
-![DetailPost](https://imgur.com/a/p3ti8)
+![DetailPost](https://i.imgur.com/gnO946g.png)
 
 
