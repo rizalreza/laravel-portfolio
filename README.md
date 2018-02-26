@@ -32,10 +32,10 @@ Migrate
 
 * Home Page
 
-![HomePage](https://i.imgur.com/FwOyLnz.png)
+![HomePage](https://i.imgur.com/gnO946g.png)
 
 * Detail Post
 
-![DetailPost](https://i.imgur.com/gnO946g.png)
+![DetailPost](https://i.imgur.com/FwOyLnz.png)
 
 
