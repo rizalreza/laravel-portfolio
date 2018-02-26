@@ -4,7 +4,7 @@
 
 **Clone repo**
 
-	git clone https://github.com/rizalreza/laravel-httpclient.git
+	git clone https://github.com/rizalreza/laravel-simplepost.git
 
 
 **Database Configuration**
