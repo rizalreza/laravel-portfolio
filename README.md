@@ -24,11 +24,11 @@ Migrate
 
 * Add Post
 
-![Addpost](https://i.imgur.com/Ue6n6KL.png))
+![Addpost](https://i.imgur.com/LuDMyi2.png)
 
 * Update and Delete Post
 
-![UpdateandDeletePost](https://i.imgur.com/FwOyLnz.png)
+![UpdateandDeletePost](https://i.imgur.com/Ue6n6KL.png)
 
 * Home Page
 
